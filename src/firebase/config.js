@@ -1,10 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAzKw1v7RGw8Mn3KaJ00AZTfN2veTlg9kA",
-  authDomain: "notitiam-2e775.firebaseapp.com",
-  databaseURL: "https://notitiam-2e775.firebaseio.com",
-  projectId: "notitiam-2e775",
-  storageBucket: "notitiam-2e775.appspot.com",
-  messagingSenderId: "964454594710",
-  appId: "1:964454594710:web:4b70ea8ade34626a3e2ab7",
-  measurementId: "G-HS0DFX2EPP"
+  apiKey: "AIzaSyBbnJXzGRQhTLhF9LWzxP2NClLImnJLgAU",
+  authDomain: "newsyreact-716c6.firebaseapp.com",
+  databaseURL: "https://newsyreact-716c6.firebaseio.com",
+  projectId: "newsyreact-716c6",
+  storageBucket: "newsyreact-716c6.appspot.com",
+  messagingSenderId: "87774534787",
+  appId: "1:87774534787:web:22dfc0eddc5f774d9acfb6",
+  measurementId: "G-W7XNNYBL5K"
 };
+export default firebaseConfig;

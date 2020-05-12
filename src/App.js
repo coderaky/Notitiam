@@ -11,13 +11,13 @@ import {
 } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import {
-  newspaperOutline,
+  NoticepaperOutline,
   searchOutline,
   personCircleOutline,
   createOutline,
   trendingUpOutline,
 } from "ionicons/icons";
-import News from "./pages/Tabs/News";
+import Notice from "./pages/Tabs/Notice";
 import Trending from "./pages/Tabs/Trending";
 import Submit from "./pages/Tabs/Submit";
 import Search from "./pages/Tabs/Search";
@@ -60,10 +60,10 @@ const App = () => {
             <IonRouterOutlet>
               <Route
                 path="/"
-                render={() => <Redirect to="/news" />}
+                render={() => <Redirect to="/Notice" />}
                 exact={true}
               />
-              <Route path="/news" component={News} />
+              <Route path="/Notice" component={Notice} />
               <Route path="/trending" component={Trending} />
               <Route path="/submit" component={Submit} />
               <Route path="/search" component={Search} />
@@ -73,12 +73,12 @@ const App = () => {
               <Route path="/login" component={Login} />
               <Route path="/forgot" component={Forgot} />
               <Route path="/link/:linkId" component={Link} />
-              <Route component={() => <Redirect to="/news" />} />
+              <Route component={() => <Redirect to="/Notice" />} />
             </IonRouterOutlet>
             <IonTabBar slot="bottom">
-              <IonTabButton tab="news" href="/news">
-                <IonIcon icon={newspaperOutline} />
-                <IonLabel>Newsy</IonLabel>
+              <IonTabButton tab="Notice" href="/Notice">
+                <IonIcon icon={NoticepaperOutline} />
+                <IonLabel>Noticey</IonLabel>
               </IonTabButton>
               <IonTabButton tab="trending" href="/trending">
                 <IonIcon icon={trendingUpOutline} />
